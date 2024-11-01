@@ -1,0 +1,362 @@
+.s2a-nav-background-circle {
+    background-color: #ccc;
+    color: #333333;
+    padding: 3px 10px;
+    border-radius: 15px;
+    margin-left: -5px;
+}
+
+.s2a-nav-background-circle.s2a-active {
+    background-color: #519441;
+    color: #ffffff;
+}
+
+.s2a-border-box {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+}
+
+.s2a-clearfix {
+    clear: both;
+}
+
+.s2a-col-full {
+    width: 100%;
+}
+
+.s2a-col-half {
+    width: 50%;
+    float: left;
+}
+
+.s2a-col-one_third {
+    float: left;
+    width: 33.33%;
+}
+
+.s2a-col-two_third {
+    float: left;
+    width: 66.66%;
+}
+
+.s2a-container {
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+.s2a-form-content {
+    margin-top: 10px;
+}
+
+.s2a-form-label {
+    font-weight: 600;
+}
+
+.s2a-logo-preview {
+    float: left;
+    height: 96px;
+    width: 96px;
+}
+
+.s2a-list-steps-box {
+    background-color: #ffffff;
+    border: 1px solid #e4e4e4;
+    border-radius: 4px;
+    padding: 0 20px;
+}
+
+.s2a-list-steps li::before {
+    content: "\f10c";
+    font-family: "FontAwesome", "Open Sans", Arial, sans-serif;
+    margin-right: 5px;
+}
+
+.s2a-list-steps li {
+    color: #c6c6c6;
+}
+
+.s2a-list-steps .s2a-active {
+    color: #333333;
+}
+
+.s2a-list-steps .s2a-active::before {
+    content: "\f192";
+}
+
+.s2a-margin-left {
+    margin-left: 15px;
+}
+
+.s2a-margin-right {
+    margin-right: 15px;
+}
+
+.s2a-margin-top {
+    margin-top: 15px;
+}
+
+.s2a-no-logo {
+    align-items: center;
+    border: 1px solid #c6c6c6;
+    border-radius: 7px;
+    display: flex;
+    font-size: 22px;
+    font-weight: 600;
+    height: 100%;
+    justify-content: center;
+    line-height: 22px;
+    text-align: center;
+    width: 100%;
+}
+
+.s2a-notification-red {
+    background-color: #fff2f3;
+    border: 1px solid #fcd4d9;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+.s2a-pages-item {
+    margin-bottom: 10px;
+}
+
+.s2a-pages-inside {
+    background-color: #ececec;
+    border-color: #e5e5e5;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    display: block;
+    padding: 10px;
+    position: relative;
+}
+
+.s2a-pages-title {
+    font-weight: 600;
+}
+
+.s2a-pages-title-action {
+    float: right;
+}
+
+.s2a-pages-top {
+    background-color: #ffffff;
+    border: 1px solid #dfdfdf;
+    height: auto;
+    line-height: 30px;
+    min-height: 20px;
+    overflow: hidden;
+    padding: 5px 10px;
+    position: relative;
+    word-wrap: break-word;
+}
+
+.s2a-pull-left {
+    float: left;
+}
+
+.s2a-pull-right {
+    float: right;
+}
+
+.s2a-preview-iframe {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-shadow: 0 0 1px 0 rgba(160, 160, 160, 0.5);
+    height: 860px;
+    width: 450px;
+}
+
+.s2a-registration-box {
+    background-color: #fafafa;
+    border: 1px solid #01b3b3;
+    border-radius: 3px;
+    margin-left: 50%;
+    opacity: 0;
+    padding: 25px 25px 15px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 1s ease 1s;
+    width: 410px;
+}
+
+.s2a-registration-box > input {
+    border-radius: 3px;
+    margin-top: 7px;
+    padding: 7px 10px;
+    width: 100%;
+}
+
+.s2a-registration-box > button {
+    background-color: #01b3b3;
+    border: medium none;
+    border-radius: 3px;
+    color: #fefefe;
+    cursor: pointer;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 7px;
+    width: 100%;
+}
+
+.s2a-registration-close {
+    background-color: rgba(0, 0, 0, 0.21);
+    border-radius: 15px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 15px;
+    padding: 3px;
+    position: absolute;
+    right: 3px;
+    text-align: center;
+    top: 3px;
+    transition: all 0.67s ease 0s;
+    width: 15px;
+}
+
+.s2a-registration-close:hover {
+    background-color: rgba(0, 0, 0, 0.67);
+}
+
+.s2a-registration-failed {
+    border-bottom: 1px dashed #ff0000;
+    color: #990000;
+}
+
+.s2a-registration-label {
+    font-weight: bold;
+}
+
+.s2a-registration-overlay {
+    background-color: rgba(255, 255, 255, 0);
+    bottom: 0;
+    left: 160px;
+    position: fixed;
+    right: -44px;
+    top: 32px;
+    transition: background-color 1s ease 0s;
+    z-index: 3290;
+}
+
+.s2a-registration-title {
+    background-color: #01b3b3;
+    border-radius: 0 3px 3px;
+    color: #fefefe;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 5px 15px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 0;
+    transform: translateY(-10px);
+}
+
+.s2a-registration-title::before {
+    border-color: transparent #026b6b #026b6b transparent;
+    border-style: solid;
+    border-width: 5px;
+    content: "";
+    left: 0;
+    margin-left: -10px;
+    position: absolute;
+    top: 0;
+}
+
+.s2a-row {
+    width: 100%;
+}
+
+.s2a-sortable.ui-sortable li {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #dfdfdf;
+    min-height: 20px;
+    padding: 7px 0 7px 7px;
+}
+
+.s2a-sortable .ui-state-highlight {
+    background-color: #dcdcdc !important;
+    border: 1px dashed #a9a9a9 !important;
+    height: 18px;
+    position: relative;
+}
+
+.s2a-table-ai {
+    width: 100%;
+}
+
+.s2a-table-ai tbody td:first-child {
+    border-right: 2px solid;
+    font-weight: 600;
+    width: 25%;
+}
+
+.s2a-table-ai td {
+    padding: 7px 10px;
+}
+
+.s2a-table-ai input[type="text"] {
+    width: 100%;
+}
+
+.s2a-table-page-selection {
+    width: 100%;
+}
+
+.s2a-table-page-selection tbody td:nth-child(2) {
+    width: 375px;
+}
+
+.s2a-table-page-selection tbody td:nth-child(2) input {
+    width: 100%;
+}
+
+.s2a-table-page-selection tbody td:nth-child(3) {
+    width: 46px;
+}
+
+.s2a-table-radio {
+    width: 100%;
+}
+
+.s2a-table-radio input {
+    width: 100%;
+}
+
+.s2a-table-radio select {
+    width: 100%;
+}
+
+.s2a-table-radio tbody td:first-child {
+    width: 20px;
+}
+
+.s2a-table-status tbody td {
+    padding: 5px 0;
+}
+
+.s2a-table-status tbody td:first-child {
+    width: 125px;
+}
+
+.s2a-text-center {
+    text-align: center;
+}
+
+.s2a-text-right {
+    text-align: right;
+}
+
+/**
+ * WP Modifier - Please don't over do it!
+ */
+ul.wp-submenu li a[href="#shops2apps"] {
+    display: none !important;
+}
